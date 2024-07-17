@@ -1,5 +1,5 @@
 import {API_KEY}from './api'
-const apiKey = API_KEY; // Replace with your actual API keydocument.getElementById('getWeatherBtn').addEventListener('click', function() {
+const apiKey = API_KEY; // Replace with your actual API key
 
 document.getElementById('getWeatherBtn').addEventListener('click', function() {
     const city = document.getElementById('city').value.trim();
